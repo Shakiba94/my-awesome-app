@@ -1,0 +1,108 @@
+.container {
+  margin-top: 80px;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 10px;
+  background-image: url(src/images/sky.jpg);
+  max-width: 600px;
+  margin-bottom: 60px;
+}
+
+#box {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+#submit-button {
+  display: block;
+  border-width: 1 px;
+  border-radius: 20px;
+  padding: 0 5px;
+  font-size: 15px;
+  position: relative;
+  left: 370px;
+  top: -29px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+h1 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.sun {
+  width: 188px;
+  position: relative;
+  left: 10px;
+  bottom: 165px;
+}
+
+.sunny {
+  font-size: 20px;
+  position: relative;
+  left: 85px;
+  bottom: 190px;
+}
+
+.next-day {
+  font-size: 20px;
+  position: relative;
+  left: 200px;
+  bottom: 180px;
+}
+
+.cloud {
+  width: 110px;
+  position: relative;
+  left: 337px;
+  bottom: 270px;
+}
+
+.row {
+  position: relative;
+  bottom: 220px;
+}
+
+.weather {
+  max-width: 100px;
+}
+
+.positions {
+  position: relative;
+  left: 40px;
+  top: 18px;
+}
+
+.situation {
+  position: relative;
+  left: 30px;
+  font-family: "Lobster", cursive;
+}
+
+#current-button {
+  display: block;
+  border-radius: 20px;
+  padding: 10 15px;
+  font-size: 18px;
+  position: relative;
+  left: 240px;
+  bottom: -30px;
+  cursor: pointer;
+}
