@@ -106,3 +106,13 @@ h3 {
   bottom: -30px;
   cursor: pointer;
 }
+
+#link {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+#link:hover {
+  color: blue;
+}
