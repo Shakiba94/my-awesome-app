@@ -5,7 +5,7 @@
 .card {
   margin: 0 auto;
   padding: 10px;
-  background-image: url(src/images/sky.jpg);
+  background-image: url("images/sky.jpg");
   max-width: 600px;
   margin-bottom: 60px;
 }
