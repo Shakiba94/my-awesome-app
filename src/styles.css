@@ -56,10 +56,24 @@ h3 {
 
 .sunny {
   font-size: 20px;
+  font-weight: bold;
   text-transform: capitalize;
   position: relative;
-  left: 85px;
+  left: 80px;
   bottom: 190px;
+}
+
+#info {
+  position: relative;
+  left: 48px;
+  bottom: 205px;
+}
+
+#list {
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .next-day {

@@ -45,6 +45,10 @@ function showTemperature(response) {
   temperatureElement.innerHTML = `It is ${temperature}°C in ${city}`;
   let description = document.querySelector("#sunny");
   description.innerHTML = response.data.weather[0].description;
+  let humidityElement = document.querySelector("#humidity");
+  humidityElement.innerHTML = response.data.main.humidity;
+  let windElement = document.querySelector("#wind");
+  windElement.innerHTML = Math.round(response.data.wind.speed);
 }
 
 function showPosition(position) {
