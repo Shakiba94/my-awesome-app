@@ -25,6 +25,7 @@
   position: relative;
   left: 370px;
   top: -29px;
+  background-color: #fff;
 }
 
 h1,
@@ -50,8 +51,8 @@ h3 {
 .sun {
   width: 188px;
   position: relative;
-  left: 10px;
-  bottom: 165px;
+  left: 5px;
+  bottom: 153px;
 }
 
 .sunny {
@@ -59,14 +60,14 @@ h3 {
   font-weight: bold;
   text-transform: capitalize;
   position: relative;
-  left: 80px;
-  bottom: 190px;
+  left: 63px;
+  bottom: 180px;
 }
 
 #info {
   position: relative;
-  left: 48px;
-  bottom: 205px;
+  left: 30px;
+  bottom: 195px;
 }
 
 #list {
@@ -78,16 +79,17 @@ h3 {
 
 .next-day {
   font-size: 20px;
+  font-weight: bold;
   position: relative;
-  left: 200px;
-  bottom: 180px;
+  left: 195px;
+  bottom: 165px;
 }
 
 .cloud {
   width: 110px;
   position: relative;
-  left: 337px;
-  bottom: 270px;
+  left: 335px;
+  bottom: 255px;
 }
 
 .row {
@@ -120,6 +122,7 @@ h3 {
   left: 240px;
   bottom: -30px;
   cursor: pointer;
+  background-color: #fff;
 }
 
 #link {
