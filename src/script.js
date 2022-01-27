@@ -40,9 +40,11 @@ h1.innerHTML = `${day} , ${hours}:${minutes} `;
 
 function showTemperature(response) {
   let city = response.data.name;
+  let h2 = document.querySelector("#cityName");
+  h2.innerHTML = city;
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = `It is ${temperature}°C in ${city}`;
+  temperatureElement.innerHTML = temperature;
   let description = document.querySelector("#sunny");
   description.innerHTML = response.data.weather[0].description;
   let humidityElement = document.querySelector("#humidity");
@@ -55,6 +57,7 @@ function showTemperature(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
+  celsiusTemperature = response.data.main.temp;
 }
 
 function showPosition(position) {
