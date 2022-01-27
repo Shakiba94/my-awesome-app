@@ -41,7 +41,7 @@ h1.innerHTML = `${day} , ${hours}:${minutes} `;
 function showTemperature(response) {
   let city = response.data.name;
   let temperature = Math.round(response.data.main.temp);
-  let temperatureElement = document.querySelector("#temp");
+  let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = `It is ${temperature}°C in ${city}`;
   let description = document.querySelector("#sunny");
   description.innerHTML = response.data.weather[0].description;
