@@ -12,12 +12,18 @@
     />
     <title>Weather</title>
     <link rel="stylesheet" href="src/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
@@ -25,27 +31,36 @@
       <div class="card">
         <div class="card-body">
           <form id="search-form">
-            <input id="box" type="text" placeholder="Enter City" autocomplete="off" autofocus="on" />
+            <input
+              id="box"
+              type="text"
+              placeholder="Enter City"
+              autocomplete="off"
+              autofocus="on"
+            />
             <input id="submit-button" type="submit" value="Search" />
           </form>
           <h1 id="whichDay">Today</h1>
 
           <h2 id="cityName">Paris</h2>
-          <h3>Temperature:<span id="temperature">19°</span><span class="units">
+          <h3>
+            Temperature:<span id="temperature">19°</span
+            ><span class="units">
               <a href="#" id="celsius-link">°C</a> |
               <a href="#" id="fahrenheit-link">°F</a>
             </span>
           </h3>
-          <img id="icon" class="sun" src="src/images/sunny.png" alt="picture of sun" />
-          <p id = "sunny" class="sunny">Sunny</p>
+          <img
+            id="icon"
+            class="sun"
+            src="src/images/sunny.png"
+            alt="picture of sun"
+          />
+          <p id="sunny" class="sunny">Sunny</p>
           <div id="info">
             <ul id="list">
-              <li>
-                Humidity: <span id="humidity">10%</span>
-              </li>
-              <li>
-                Wind: <span id="wind">2 km/h</span>
-              </li>
+              <li>Humidity: <span id="humidity">10%</span></li>
+              <li>Wind: <span id="wind">2 km/h</span></li>
             </ul>
           </div>
           <p class="next-day">Tommorow 16°c</p>
@@ -57,47 +72,36 @@
 
           <button id="current-button">Current</button>
 
-          
-
           <div class="row">
             <div class="col-3">
-              <div class ="situation">
-                Tuesday
-              </div>
+              <div class="situation">Tuesday</div>
               <img class="weather" src="src/images/showers.png" alt="" />
+              <div class="positions">12°c</div>
             </div>
             <div class="col-3">
-              <div class="situation">
-                Wednesday
-              </div>
+              <div class="situation">Wednesday</div>
               <img class="weather" src="src/images/showers.png" alt="" />
+              <div class="positions">12°c</div>
             </div>
             <div class="col-3">
-              <div class="situation">
-                Thursday
-              </div>
+              <div class="situation">Thursday</div>
               <img class="weather" src="src/images/partly-cloudy.png" alt="" />
+              <div class="positions">12°c</div>
             </div>
             <div class="col-3">
-              <div class="situation">
-                Friday
-              </div>
+              <div class="situation">Friday</div>
               <img class="weather" src="src/images/partly-cloudy.png" alt="" />
+              <div class="positions">12°c</div>
             </div>
           </div>
-
-          <div class="positions">
-          <div class="row">
-            <div class="col-3">12°c</div>
-            <div class="col-3">12°c</div>
-            <div class="col-3">14°c</div>
-            <div class="col-3">14°c</div>
-          </div>
-          <div>
         </div>
       </div>
     </div>
-    <a id="link" href="https://github.com/Shakiba94/my-awesome-app/tree/main/src">open-source code</a>
-    <script src = "src/script.js"></script>
+    <a
+      id="link"
+      href="https://github.com/Shakiba94/my-awesome-app/tree/main/src"
+      >open-source code</a
+    >
+    <script src="src/script.js"></script>
   </body>
 </html>
