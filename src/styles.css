@@ -1,19 +1,23 @@
 .container {
   margin-top: 80px;
+  margin-bottom: 60px;
+  max-width: 750px;
 }
 
 .card {
-  margin: 0 auto;
-  padding: 10px;
   background-image: url("images/sky.jpg");
-  max-width: 600px;
-  margin-bottom: 60px;
+}
+
+.card-body {
+  padding: 0;
 }
 
 #box {
   display: block;
   margin: 0 auto;
   border-radius: 12px;
+  position: relative;
+  top: 50px;
 }
 
 #submit-button {
@@ -23,8 +27,8 @@
   padding: 0 5px;
   font-size: 15px;
   position: relative;
-  left: 370px;
-  top: -29px;
+  left: 460px;
+  top: 22px;
   background-color: #fff;
 }
 
@@ -32,31 +36,32 @@ h1,
 h2,
 h3 {
   text-align: center;
-  font-family: "Lobster", cursive;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
 }
 
 h1 {
-  font-size: 25px;
-  margin-top: 30px;
+  font-size: 33px;
+  margin-top: 110px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 43px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .sun {
-  width: 188px;
+  width: 210px;
   position: relative;
   left: 5px;
   bottom: 153px;
 }
 
 .sunny {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   text-transform: capitalize;
   position: relative;
@@ -72,17 +77,9 @@ h3 {
 
 #list {
   list-style: none;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: bold;
   text-transform: capitalize;
-}
-
-.next-day {
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-  left: 195px;
-  bottom: 165px;
 }
 
 .cloud {
@@ -98,19 +95,25 @@ h3 {
 }
 
 .weather {
-  max-width: 100px;
+  max-width: 110px;
+  position: relative;
+  left: 27px;
+  top: 65px;
 }
 
 .positions {
   position: relative;
-  left: 40px;
-  top: 18px;
+  left: 65px;
+  top: 80px;
+  font-weight: bold;
 }
 
 .situation {
   position: relative;
-  left: 30px;
-  font-family: "Lobster", cursive;
+  left: 55px;
+  top: 65px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
 }
 
 #current-button {
@@ -119,8 +122,8 @@ h3 {
   padding: 10 15px;
   font-size: 18px;
   position: relative;
-  left: 240px;
-  bottom: -30px;
+  left: 320px;
+  bottom: -85px;
   cursor: pointer;
   background-color: #fff;
 }
