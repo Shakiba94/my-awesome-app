@@ -96,22 +96,19 @@ h3 {
 
 .weather {
   max-width: 110px;
-  position: relative;
-  left: 27px;
-  top: 65px;
 }
 
 .positions {
   position: relative;
   left: 65px;
-  top: 80px;
+  top: -10px;
   font-weight: bold;
 }
 
 .situation {
   position: relative;
   left: 55px;
-  top: 65px;
+  top: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
 }
@@ -123,7 +120,7 @@ h3 {
   font-size: 18px;
   position: relative;
   left: 320px;
-  bottom: -85px;
+  bottom: -30px;
   cursor: pointer;
   background-color: #fff;
 }
