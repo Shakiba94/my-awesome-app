@@ -96,7 +96,7 @@ function displayForecast() {
       forecastHTML +
       ` 
               <div class="col-2">
-                <div class="situation">Tuesday</div>
+                <div class="situation">${day}</div>
                 <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="" width="82"/>
                 <div class="positions">12°c</div>
               </div>
