@@ -94,20 +94,21 @@ h3 {
   bottom: 220px;
 }
 
-.weather {
-  max-width: 110px;
+.forecast-picture {
+  position: relative;
+  left: 80px;
 }
 
 .positions {
   position: relative;
-  left: 65px;
+  left: 105px;
   top: -10px;
   font-weight: bold;
 }
 
 .situation {
   position: relative;
-  left: 55px;
+  left: 105px;
   top: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
