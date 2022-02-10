@@ -99,9 +99,13 @@ h3 {
   left: 80px;
 }
 
+.weather-forecast-temerature-min {
+  opacity: 0.6;
+}
+
 .positions {
   position: relative;
-  left: 105px;
+  left: 90px;
   top: -10px;
   font-weight: bold;
 }

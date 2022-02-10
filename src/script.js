@@ -108,7 +108,7 @@ function displayForecast(response) {
               <div class="col-2">
                 <div class="situation">${day}</div>
                 <img class="forecast-picture" src="http://openweathermap.org/img/wn/50d@2x.png" alt="" width="82"/>
-                <div class="positions">12°c</div>
+                <div class="positions"><span class="weather-forecast-temperature-max">12°c</span>  <span class="weather-forecast-temerature-min">3°c</span></div>
               </div>`;
   });
 
