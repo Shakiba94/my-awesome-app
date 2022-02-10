@@ -96,7 +96,7 @@ h3 {
 
 .forecast-picture {
   position: relative;
-  left: 80px;
+  left: 76px;
 }
 
 .weather-forecast-temerature-min {
@@ -106,14 +106,14 @@ h3 {
 .positions {
   position: relative;
   left: 90px;
-  top: -10px;
+  top: -5px;
   font-weight: bold;
 }
 
 .situation {
   position: relative;
   left: 105px;
-  top: 20px;
+  top: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
 }
