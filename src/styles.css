@@ -124,8 +124,7 @@ h3 {
   padding: 10 15px;
   font-size: 18px;
   position: relative;
-  left: 320px;
-  bottom: 5px;
+  left: 322px;
   cursor: pointer;
   background-color: #fff;
 }
@@ -138,4 +137,9 @@ h3 {
 
 #link:hover {
   color: blue;
+}
+
+#link-position {
+  position: relative;
+  bottom: 100px;
 }
