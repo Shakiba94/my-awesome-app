@@ -70,8 +70,10 @@ function showTemperature(response) {
 }
 
 function showPosition(position) {
-  let h2 = document.querySelector("#cityName");
-  h2.innerHTML = `${position.coords.latitude} ${position.coords.longitude}`;
+  let apiKey = "6f97c15cf8e7224067c7d49c6df74784";
+  let units = "metric";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=${units}`;
+  axios.get(apiUrl).then(showTemperature);
 }
 
 function getCurrentPosition(event) {
